@@ -1,0 +1,25 @@
+button{
+    background-color: blue;
+    color: white;
+}
+
+h1{
+    margin-left: 640px;
+}
+
+form{
+    height: 700px;
+    width: 500px;
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-left: 450px;
+    padding: 20px
+}
+
+/* input{
+    size: 500px;
+} */
+
+#input{
+    size: 50px;
+}

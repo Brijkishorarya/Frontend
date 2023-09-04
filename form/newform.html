@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>New Guest Entry</h1>
+
+    <!-- <form action="Reg No">
+        
+    </form> -->
+
+    <form>
+        <!-- <label for="Regno">Reg No</label>
+        <label for="Regno">Invoice No</label>
+        <label for="Regno">Log No</label><br>
+        <input type="text" id="Reg No" name="fname">
+
+        <label for="Regno">Reg No</label><br>
+        <input type="text" id="Reg No" name="fname"> -->
+        <table>
+            <tr>
+                <td><label for="Regno">Reg No</label><br>
+                    <input type="text" id="Reg No" name="Regno">
+                </td>
+                <td>
+                    <label for="Invoiceno">Invoice No</label><br>
+                    <input type="text" id="Invoiceno" name="Invoiceno">
+                </td>
+                <td>
+                    <label for="Logno">Log No</label><br>
+                    <input type="text" id="Logno" name="logno">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="calender">Check In</label><br>
+                    <input type="date" id="calender" name="calender">
+                </td>
+                <td>
+                    <label for="Expectedcheckout">Expected Check Out</label><br>
+                    <input type="date" id="Expectedcheckout" name="Expectedcheckout">
+                </td>
+                <td>
+                    <label for="Roomtype">Room Type</label><br>
+                    <select name="Room" id="">
+                        <option selected disabled value="Choose">Choose..</option>
+                        <option value="Delux">Delux</option>
+                        <option value="Ac">Ac</option>
+                        <option value="Non-Ac">Non-Ac</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Mealplan">Meal Plan</label><br>
+                    <select name="Meal" id="">
+                        <option selected disabled value="Choose">Choose..</option>
+                        <option value="BreakFast">BreakFast</option>
+                        <option value="Lunch">Lunch</option>
+                        <option value="Dinner">Dinner</option>
+                    </select>
+                </td>
+                <td>
+                    <label for="Roomnumber">Room Number</label><br>
+                    <select name="Roomnumber" id="">
+                        <option selected disabled value="Choose">Choose..</option>
+                        <option value="one">1</option>
+                        <option value="two">2</option>
+                        <option value="three">3</option>
+                    </select>
+                </td>
+                <td>
+                    <label for="Guestbasis">Guest Basis</label><br>
+                    <select name="Guestbasis" id="">
+                        <option selected disabled value="directbooking">Direct Booking</option>
+                        <option value="Online">Online</option>
+                        <option value="Tatkal">Tatkal</option>
+                        <option value="Fasttofast">Fast - to - Fast</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Guesttype">Guest Type</label><br>
+                    <select name="Guest Type" id="">
+                        <option selected disabled value="Tourist">Tourist</option>
+                        <option value="Local">Local</option>
+                        <option value="vidhesi">videshi</option>
+                        <option value="Door">Door ke ristedar</option>
+                    </select>
+                </td>
+                <td>
+                    <label for="bill">Bill To</label><br>
+                    <input type="radio" name="radio" value="Customer" id="Customer">Customer
+                    <input type="radio" name="radio" value="Company" id="Company">Company
+                </td>
+                <td>
+                    <label for="Companyname">Company Name</label><br>
+                    <input type="text" id="Companyname" name="Companyname" placeholder="Company Name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="fullname">Full Name</label><br>
+                    <input type="text" id="Fullname" name="Fullname">
+                </td>
+                <td>
+                    <label for="Email">email</label><br>
+                    <input type="email" id="email" name="email">
+                </td>
+                <td>
+                    <label for="Mobilenumber">Mobile Number</label><br>
+                    <input type="number" id="Mobilenumber" name="Mobilenumber">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Wpnid">WP/NID</label><br>
+                    <input type="text" id="Wpnid" name="Wpnid">  
+                </td>
+                <td>
+                    <label for="Passportnumber">Passport Number</label><br>
+                    <input type="number" id="Passportnumber" name="Passportnumber">
+                </td>
+                <td>
+                    <label for="Nationality">Nationality</label><br>
+                    <select name="Nationality" id="">
+                        <option selected disabled value="selectone">--Select One--</option>
+                        <option value="Indian">Indian</option>
+                        <option value="pakisthan">Pakistan</option>
+                        <option value="usa">USA</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="countryofresidence">Cournty of Residence</label><br>
+                    <select name="countryofresidence" id="">
+                        <option selected disabled value="selectone">--Select One--</option>
+                        <option value="India">India</option>
+                        <option value="pakistan">Pakistan</option>
+                        <option value="usa">USA</option>
+                    </select>
+                </td>
+                <td>
+                    <label for="dob">D.O.B</label><br>
+                    <input type="date" id="dob" name="dob">
+                </td>
+                <td>
+                    <label for="Profession">Profession</label><br>
+                    <input type="text" id="Profession" name="Profession"> 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="noofpax">No. of Pax</label><br>
+                    <input type="noofpax" id="noofpax" name="noofpax">
+                </td>
+                <td>
+                    <label for="Group">Group</label><br>
+                    <select name="Group" id="Group">
+                        <option selected disabled value="Group">no</option>
+                        <option value="A">A</option>
+                        <option value="B">B</option>
+                        <option value="C">C</option>
+                    </select>  
+                </td>
+                <td>
+                    <label for="uploadid">Upload Id</label><br>
+                    <input type="file">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Remark">Remark</label>
+                    <input type="text" id="remark" name="remark">
+                </td>
+                <td>
+                    <label for="verifiedby">Vrified By</label>
+                    <input type="text" placeholder="admin_main">
+                </td>
+               
+            </tr>
+            
+        </table>
+
+    </form>
+    <script>
+        function changedata(){
+        if(document.getElementsByName("bill").value==="Customer"){
+            document.getElementById("Company").disabled=true; 
+        }
+    }
+    </script>
+</body>
+</html>
